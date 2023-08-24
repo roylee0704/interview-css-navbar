@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*  Write your code here. */
+
+        /* Delete this ruleset. */
+        body {
+            background-color: grey;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #6e072d;
+        }
+
+        ul {
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+            padding: 1em 1.5em;
+            color: white;
+            cursor: pointer;
+        }
+
+        li:not(:last-of-type) {
+            border-right: white 2px solid;
+        }
+
+        li:hover {
+            background-color: #b90e4d;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <ul>
+          <li>Product</li>
+          <li>Testimonails</li>
+          <li>Pricing</li>
+        </ul>
+        <ul>
+          <li>Team</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+</body>
+</html>
